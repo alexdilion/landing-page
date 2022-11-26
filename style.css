@@ -1,0 +1,89 @@
+/* bg #1f2937 */
+/* main text #f9faf8 */
+/* secondary text #e5e7eb */
+
+* {
+  font-family: 'Roboto'
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.header-container {
+    width: 75vw;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar-links {
+    display: flex;
+    gap: 18px;
+}
+
+.nav-bar-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.intro-container {
+    display: flex;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.intro-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e7e5eb;
+    background-color: #8899b3;
+    max-height: 100%;
+    flex: 1;
+}
+
+.intro {
+    max-width: 50%;
+    flex: 1;
+}
+
+.intro h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro-container button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0;
+    padding: 5px 26px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bolder;
+}
