@@ -19,7 +19,7 @@ header {
 }
 
 .header-container {
-    width: 75vw;
+    width: 60vw;
 }
 
 .nav-bar {
@@ -58,6 +58,7 @@ header {
     color: #e7e5eb;
     background-color: #8899b3;
     max-height: 100%;
+    max-width: 30vw;
     flex: 1;
 }
 
@@ -86,4 +87,46 @@ header {
     border-radius: 8px;
     font-size: 18px;
     font-weight: bolder;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+li p {
+    text-align: center;
+    color: #242f3f;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information h3 {
+    margin: 40px 0px;
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.images {
+    display: flex;
+    gap: 50px;
+}
+
+.images img {
+    min-height: 150px;
+    min-width: 150px;
+    background-color: #fff;
+    border: #3882f6 solid 4px;
+    border-radius: 10%;
 }
