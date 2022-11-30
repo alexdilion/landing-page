@@ -205,3 +205,16 @@ li p {
     display: flex;
     flex-direction: column;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+footer p {
+    color: #f9faf8;
+    margin: 30px;
+    size: 18px;
+}
